@@ -9,34 +9,23 @@
         - 正如全文第 3 部分「输入数据」所说，待使用的 20 Newsgroups 文本中还包含一些对于文本分类而言冗余的、需要修改的字符。考虑到 20 Newsgroups 的文本比 enwiki9 的文本格式更简单，因此可简单调用清洗 text 8 所说用的脚本，对 20 Newsgroups 中的每一份文本（训练集、测试集）进行预处理即可
         - 由于使用了同样的预处理脚本，因此 20 Newgroups 处理完后，和 text 8 预处理后的效果一样：文本中只包含由小写字母 a-z 组成的单词、单一空格（将不在 a-z 之间的字符也一律转换为空格）
 1. 【特征抽取与文本表示】
-    + 使用**TF-IDF** 方法抽取特征，建立表示模型 1
-    + 使用**词嵌入**（Word embedding）方法（在这里，具体使用 Word2Vec）抽取特征，建立表示模型 2
-    + 考虑到 Word2Vec 的对标是 LSI，可能会使用 LSI 或 LDA 建立表示模型 1 或表示模型 3
+    + 使用**TF-IDF** 方法抽取特征，建立表示模型 1，包括如下步骤：
+        - 。。。
+    + 使用**词嵌入**（Word embedding）方法（在这里，具体使用 Doc2Vec）抽取特征，建立表示模型 2
+        - 。。。
 2. 【分类器训练】
     + 文本表示模型建模工具
         + gensim
         + scikit-learn
     + 学习算法：对上述 2~3 个模型，在每个模型上分别使用下述有监督学习方法在训练数据上训练出一组分类器：
         + 神经网络
-        + 逻辑回归
-        + 决策树
         + 支持向量机（SVM）
-        + k 近邻（k-NN）
         + 朴素贝叶斯
-        + 集成学习
-            + 基于上述方法（决策树以外、神经网络以外）的集成学习（AdaBoost）
-            + 随机森林
     + 学习工具：
         + tensorflow：用于训练神经网络模型
         + scikit-learn：用于训练下述学习算法
-            + [逻辑回归](http://scikit-learn.org/stable/modules/linear_model.html#logistic-regression)
-            + [决策树](http://scikit-learn.org/stable/modules/tree.html)
             + [支持向量机（SVM）](http://scikit-learn.org/stable/modules/svm.html)
-            + [k 近邻（k-NN）](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html#sklearn.neighbors.KNeighborsClassifier)
             + [朴素贝叶斯](http://scikit-learn.org/stable/modules/naive_bayes.html)
-            + 集成学习
-                + 基于上述方法的集成学习（AdaBoost）
-                + 随机森林
 3. 【性能评估】
     1. 评估流程
         1. 在每个文本表示模型 $m$ 的语境下训练每一个分类器 $c$ 时，就记下分类器 $c$ 被训练到不低于基准要求的水平时所耗费的时间 $t_{train}$
