@@ -1,0 +1,3 @@
+ID,sci.crypt,talk.religion.misc,soc.religion.christian,comp.sys.mac.hardware,sci.space,rec.sport.baseball,comp.windows.x,talk.politics.mideast,comp.sys.ibm.pc.hardware,alt.atheism,rec.autos,rec.motorcycles,talk.politics.guns,rec.sport.hockey,talk.politics.misc,sci.electronics,comp.graphics,comp.os.ms-windows.misc,misc.forsale,sci.med
+test,396,251,398,385,394,397,395,376,392,319,396,398,364,399,310,393,389,394,390,396
+train,595,377,599,578,593,597,593,564,590,480,594,598,546,600,465,591,584,591,585,594

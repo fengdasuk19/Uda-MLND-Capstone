@@ -43,35 +43,21 @@ text8 数据集具备下述特征
     + 训练集（占总数据 60%）
     + 测试集（占总数据 40%）
 + 剔除了跨主题的新闻（即任何一份新闻都只在单一主题下），提出了新闻组相关辨认标识（如 Xref, Newsgroups, Path, Followup-To, Date）
++ 对于文本处理而言仍不够干净：除了由小写字母 a-z 组成的单词、单一空格以外，还有一些标点符号，如 `@`、`.`、`*` 等。因此在最终训练前，需要对该数据进行清洗。
 
-数据集在 20 类别上的数据如下所示
+> 具体的清洗步骤，将在第 7 部分（设计大纲）中进行说明
 
-Group | News count(train) | Newscount(test)
------|-----|-----
-sci.crypt | 595 | 396
-talk.religion.misc | 377 | 251
-soc.religion.christian | 599 | 398
-comp.sys.mac.hardware | 578 | 385
-sci.space | 593 | 394
-rec.sport.baseball | 597 | 397
-comp.windows.x | 593 | 395
-talk.politics.mideast | 564 | 376
-comp.sys.ibm.pc.hardware | 590 | 392
-alt.atheism | 480 | 319
-rec.autos | 594 | 396
-rec.motorcycles | 598 | 398
-talk.politics.guns | 546 | 364
-rec.sport.hockey | 600 | 399
-talk.politics.misc | 465 | 310
-sci.electronics | 591 | 393
-comp.graphics | 584 | 389
-comp.os.ms-windows.misc | 591 | 394
-misc.forsale | 585 | 390
-sci.med | 594 | 396
+数据集在 20 类别上的数据如下图所示：
 
-文本是否齐整（clean），是否需要处理？。。。
+![](./count_20newsgroups.png)
 
-这份数据集将用于训练文本分类器、评估分类器效果。
+我们可以看到有大约 3 个类的文本相对其他类来说明显较少。要判断是否可接受，我们还要看看各类别中测试数据占训练数据的比例：
+
+![](./proportion_20newsgroups.png)
+
+可以看到每个类别内部，测试数据与训练数据的比重非常稳定，正如数据提供者所说的，原始数据中训练数据大约占了 60%，测试数据占了 40%，该说法正好与图上的统计数据吻合。因此各分类内部没有明显的数据不均衡现象，均可用于正常的训练和测试。
+
+项目将采用训练集来训练文本分类器，使用测试集来最终评估分类器的效果。
 
 #### 3.2.3 样本展示
 
