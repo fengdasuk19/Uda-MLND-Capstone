@@ -1,0 +1,25 @@
+This is a report for the part: test
+
+Group | News count
+-----|-----
+sci.crypt | 396
+talk.religion.misc | 251
+soc.religion.christian | 398
+comp.sys.mac.hardware | 385
+sci.space | 394
+rec.sport.baseball | 397
+comp.windows.x | 395
+talk.politics.mideast | 376
+comp.sys.ibm.pc.hardware | 392
+alt.atheism | 319
+rec.autos | 396
+rec.motorcycles | 398
+talk.politics.guns | 364
+rec.sport.hockey | 399
+talk.politics.misc | 310
+sci.electronics | 393
+comp.graphics | 389
+comp.os.ms-windows.misc | 394
+misc.forsale | 390
+sci.med | 396
+

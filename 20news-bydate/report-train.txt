@@ -1,0 +1,25 @@
+This is a report for the part: train
+
+Group | News count
+-----|-----
+sci.crypt | 595
+talk.religion.misc | 377
+soc.religion.christian | 599
+comp.sys.mac.hardware | 578
+sci.space | 593
+rec.sport.baseball | 597
+comp.windows.x | 593
+talk.politics.mideast | 564
+comp.sys.ibm.pc.hardware | 590
+alt.atheism | 480
+rec.autos | 594
+rec.motorcycles | 598
+talk.politics.guns | 546
+rec.sport.hockey | 600
+talk.politics.misc | 465
+sci.electronics | 591
+comp.graphics | 584
+comp.os.ms-windows.misc | 591
+misc.forsale | 585
+sci.med | 594
+

@@ -24,159 +24,7 @@
 
 ## 3. 输入数据
 
-问题中涉及的数据集包括下述 2 份
-
-### 3.1 [text8]
-
-这是 gensim 在训练 word2vec 中[所建议的一份数据](https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Text8Corpus)。参考 http://www.mattmahoney.net/dc/textdata 与 https://groups.google.com/forum/#!topic/word2vec-toolkit/q02SKIqtmvU 。该数据将用于训练词向量（词袋模型的离散型词向量，或词嵌入模型的连续型词向量），从而实现对文本数据的规范表示
-
-> 注：http://www.mattmahoney.net/dc/textdata 上提供的链接 http://www.mattmahoney.net/dc/text8.zip 对应文件已经损坏（md5 校验值与网上给的不同）。通过下载 [enwik9](http://www.mattmahoney.net/dc/enwik9.zip) 并使用修改过的 Perl 脚本处理 enwik9 后得到 text8（md5 值与 http://www.mattmahoney.net/dc/textdata 给出的一致）（原始脚本见 http://www.mattmahoney.net/dc/textdata#appendixa ，仅修改 `s/{{[^}]*}}//g;` 为 `s/\{\{[^}]*\}\}//g;`，因为我的 Perl 提示了 `Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/{{ <-- HERE [^}]*}}/ at old_wikifil.pl line 34.`）
-
-这是一份对原始的英文维基百科于 2006 年 3 月 3 日的 dump 文件（参考 http://www.mattmahoney.net/dc/textdata：The test data for the [Large Text Compression Benchmark](http://www.mattmahoney.net/dc/text.html) is the first 109
- bytes of the English Wikipedia dump on Mar. 3, 2006. [http://download.wikipedia.org/enwiki/20060303/enwiki-20060303-pages-articles.xml.bz2](http://download.wikipedia.org/enwiki/20060303/enwiki-20060303-pages-articles.xml.bz2)）进行清洗后得到的数据。
-
-清洗的步骤至少包括：保留了常规正文文本、图像说明，丢弃了表格、超链接（转为普通文字）、引用、脚注、标记符号（如 `<text ...>`、`</text>`、`#REDIRECT`、`[`、`]`、`{{`、`}}`……）外国语言（英语以外的语言）版本，并将数字用英文拼写出来，将大写字母转换为小写字母等。经过上述清洗处理后，文本中只包含：由小写字母 a-z 组成的单词、单一空格（将不在 a-z 之间的字符也一律转换为空格）
-
-如下为 text8 中前 2000 字节：
-
-```
- anarchism originated as a term of abuse first used against early working class radicals including the diggers of the english revolution and the sans culottes of the french revolution whilst the term is still used in a pejorative way to describe any act that used violent means to destroy the organization of society it has also been taken up as a positive label by self defined anarchists the word anarchism is derived from the greek without archons ruler chief king anarchism as a political philosophy is the belief that rulers are unnecessary and should be abolished although there are differing interpretations of what this means anarchism also refers to related social movements that advocate the elimination of authoritarian institutions particularly the state the word anarchy as most anarchists use it does not imply chaos nihilism or anomie but rather a harmonious anti authoritarian society in place of what are regarded as authoritarian political structures and coercive economic institutions anarchists advocate social relations based upon voluntary association of autonomous individuals mutual aid and self governance while anarchism is most easily defined by what it is against anarchists also offer positive visions of what they believe to be a truly free society however ideas about how an anarchist society might work vary considerably especially with respect to economics there is also disagreement about how a free society might be brought about origins and predecessors kropotkin and others argue that before recorded history human society was organized on anarchist principles most anthropologists follow kropotkin and engels in believing that hunter gatherer bands were egalitarian and lacked division of labour accumulated wealth or decreed law and had equal access to resources william godwin anarchists including the the anarchy organisation and rothbard find anarchist attitudes in taoism from ancient china kropotkin found similar ideas in stoic zeno of citium according to
-```
-
-### 3.2 [20 Newsgroups]
-
-这是已经分为 20 类主题的 18000 条新闻文本，参考 http://www.qwone.com/~jason/20Newsgroups/ ，选择下载了其中的 http://www.qwone.com/~jason/20Newsgroups/20news-bydate.tar.gz 。在本项目中，该数据将用于训练文本分类器、评估分类器效果
-
-具备如下特征：
-
-+ 每条新闻均被研究人员标注为 20 个主题中的一个
-+ 总数据集被分割为 2 个子集：训练集（占总数据 60%） + 测试集（占总数据 40%）
-+ 剔除了跨主题的新闻（即任何一份新闻都只在单一主题下），提出了新闻组相关辨认标识（如 Xref, Newsgroups, Path, Followup-To, Date）
-
-如下为其中的一份训练样本：
-
-```txt
-From: bed@intacc.uucp (Deb Waddington)
-Subject: INFO NEEDED: Gaucher's Disease
-Distribution: Everywhere
-Expires: 01 Jun 93
-Reply-To: bed@intacc.UUCP (Deb Waddington)
-Organization: Matrix Artists' Network
-Lines: 33
-
-
-I have a 42 yr old male friend, misdiagnosed as having
- osteopporosis for two years, who recently found out that his
- illness is the rare Gaucher's disease. 
-
-Gaucher's disease symptoms include: brittle bones (he lost 9 
- inches off his hieght); enlarged liver and spleen; internal
- bleeding; and fatigue (all the time). The problem (in Type 1) is
- attributed to a genetic mutation where there is a lack of the
- enzyme glucocerebroside in macrophages so the cells swell up.
- This will eventually cause death.
-
-Enyzme replacement therapy has been successfully developed and
- approved by the FDA in the last few years so that those patients
- administered with this drug (called Ceredase) report a remarkable
- improvement in their condition. Ceredase, which is manufactured
- by biotech biggy company--Genzyme--costs the patient $380,000
- per year. Gaucher's disease has justifyably been called "the most
- expensive disease in the world".
-
-NEED INFO:
-I have researched Gaucher's disease at the library but am relying
- on netlanders to provide me with any additional information:
-**news, stories, reports
-**people you know with this disease
-**ideas, articles about Genzyme Corp, how to get a hold of
-   enough money to buy some, programs available to help with
-   costs.
-**Basically ANY HELP YOU CAN OFFER
-
-Thanks so very much!
-
-Deborah 
-```
-
-如下为其中的一份测试样本：
-
-```txt
-From: banschbach@vms.ocom.okstate.edu
-Subject: Re: Candida(yeast) Bloom, Fact or Fiction
-Lines: 68
-Nntp-Posting-Host: vms.ocom.okstate.edu
-Organization: OSU College of Osteopathic Medicine
-
-In article <1r9j33$4g8@hsdndev.harvard.edu>, rind@enterprise.bih.harvard.edu (David Rind) writes:
-> In article <1993Apr22.153000.1@vms.ocom.okstate.edu>
->  banschbach@vms.ocom.okstate.edu writes:
->>poster for being treated by a liscenced physician for a disease that did 
->>not exist.  Calling this physician a quack was reprehensible Steve and I 
->>see that you and some of the others are doing it here as well.  
-> 
-> Do you believe that any quacks exist?  How about quack diagnoses?  Is
-> being a "licensed physician" enough to guarantee that someone is not
-> a quack, or is it just that even if a licensed physician is a quack,
-> other people shouldn't say so?  Can you give an example of a
-> commonly diagnosed ailment that you think is a quack diagnosis,
-> or have we gotten to the point in civilization where we no longer
-> need to worry about unscrupulous "healers" taking advantage of
-> people.
-> -- 
-> David Rind
-
-I don't like the term "quack" being applied to a licensed physician David.
-Questionable conduct is more appropriately called unethical(in my opinion).
-I'll give you some examples.
-
-	1. Prescribing controlled substances to patients with no 
-	   demonstrated need(other than a drug addition) for the medication.
-
-	2. Prescribing thyroid preps for patients with normal thyroid 
-	   function for the purpose of quick weight loss.
-
-	3. Using laetril to treat cancer patients when such treatment has 
-	   been shown to be ineffective and dangerous(cyanide release) by 
-	   the NCI.
-
-These are errors of commission that competently trained physicians should 
-not committ but sometimes do.  There are also errors of omission(some of 
-which result in malpractice suits).  I don't think that using anti-fungal 
-agents to try to relieve discomfort in a patient who you suspect may be 
-having a problem with candida(or another fungal growth) is an error of 
-commission or omission.  Healers have had a long history of trying to 
-relieve human suffering.  Some have stuck to standard, approved procedures,
-others have been willing to try any reasonable treatment if there is a 
-chance that it will help the patient.  The key has to be tied to the 
-healer's oath, "I will do no harm".  But you know David that very few 
-treatments involve no risk to the patient.  The job of the physician is a 
-very difficult one when risk versus benefit has to be weighed.  Each 
-physician deals with this risk/benefit paradox a little differently.  Some 
-are very conservative while others are more agressive.  An agressive 
-approach may be more costly to the patient and carry more risk but as long 
-as the motive is improving the patient's health and not an attempt to rake 
-in lots of money(through some of the schemes that have been uncovered in 
-the medicare fraud cases), I don't see the need to label these healers as 
-quacks or even unethical.
-
-What do I reserve the term quack for?  Pseudo-medical professionals.  
-These people lurk on the fringes of the health care system waiting for the 
-frustrated patient to fall into their lair.  Some of these individuals are 
-really doing a pretty good job of providing "alternative" medicine.  But 
-many lack any formal training and are in the "business" simply to make a 
-few fast bucks.   While a patient can be reasonably assured of getting 
-competent care when a liscenced physician is consulted, this alternative 
-care area is really a buyer's beware arena.  If you are lucky, you may find 
-someone who can help you.  If you are unlucky, you can loose a lot of 
-money and develop severe disease because of the inability of these pseudo-
-medical professional to diagnose disease(which is the fortay of the 
-liscened physicians).
-
-I hope that this clears things up David.
-
-Marty B.
-```
+ch3
 
 ## 4. 解决办法
 
@@ -190,13 +38,18 @@ Marty B.
 
 综合考虑下述 3 个指标：
 
-+ F1：同时考虑查准率（Precision） $P = \frac{TP}{TP + FP}$ 与查全率（Recall） $R = \frac{TP}{TP + FN}$
++ F1：$F_{1} = \frac{2PR}{P+R}$，其中同时考虑了查准率（Precision） $P = \frac{TP}{TP + FP}$ 与查全率（Recall） $R = \frac{TP}{TP + FN}$
 + 训练时间 $t_{train}$：训练分类器达到标准所耗费的时间
 + 分类时间 $t_{test}$：训练出的分类器在测试数据上进行分类所耗费的时间
 
 在最终评估分类器性能时，使用下述公式来综合考虑这 3 个指标：
 
-+ $score(F_{1}, t_{train}, t_{test}) = \frac{F_1}{1 + t_{train} * t_{test}}$
++ $score(F_{1}, t_{train}, t_{test}) = \frac{F_1}{t_{train} * t_{test}}$
+
+这个指标 $score$（得分） 是我自己设计的，其含义是：
+
++ $F_{1}$ 放在分子处，值越高，即综合考虑了查准率 $P$ 和查全率 $R$ 的指标得分越高，模型总得分越高，即给予模型越好的评价：我希望训练得到一个在 $P$ 和 $R$ 上效果都不错的分类器
++ $t_{train} * t_{test}$ 放在分子处，即综合考虑了训练时间 $t_{train}$ 和实际分类耗时 $t_{test}$ 的影响：我希望训练得到一个训练速度和实际工作速度都较好的分类器。无论是训练耗时 $t_{train}$ 太长、实际使用时耗时 $t_{test}$ 较短，还是训练耗时 $t_{train}$ 较短、实际使用时耗时 $t_{test}$ 太长，都不是太好的模型。
 
 ## 6. 基准模型
 
@@ -280,39 +133,4 @@ Word2Vec | 集成学习器 | 0.85 $\pm$ 0.10 | 0.85 $\pm$ 0.10
 
 ## 7. 设计大纲
 
-1. 【特征抽取与文本表示】
-    + 使用**TF-IDF** 方法抽取特征，建立表示模型 1
-    + 使用**词嵌入**（Word embedding）方法（在这里，具体使用 Word2Vec）抽取特征，建立表示模型 2
-    + 考虑到 Word2Vec 的对标是 LSI，可能会使用 LSI 或 LDA 建立表示模型 1 或表示模型 3
-2. 【分类器训练】
-    + 文本表示模型建模工具
-        + gensim
-        + scikit-learn
-    + 学习算法：对上述 2~3 个模型，在每个模型上分别使用下述有监督学习方法在训练数据上训练出一组分类器：
-        + 神经网络
-        + 逻辑回归
-        + 决策树
-        + 支持向量机（SVM）
-        + k 近邻（k-NN）
-        + 朴素贝叶斯
-        + 集成学习
-            + 基于上述方法（决策树以外、神经网络以外）的集成学习（AdaBoost）
-            + 随机森林
-    + 学习工具：
-        + tensorflow：用于训练神经网络模型
-        + scikit-learn：用于训练下述学习算法
-            + [逻辑回归](http://scikit-learn.org/stable/modules/linear_model.html#logistic-regression)
-            + [决策树](http://scikit-learn.org/stable/modules/tree.html)
-            + [支持向量机（SVM）](http://scikit-learn.org/stable/modules/svm.html)
-            + [k 近邻（k-NN）](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html#sklearn.neighbors.KNeighborsClassifier)
-            + [朴素贝叶斯](http://scikit-learn.org/stable/modules/naive_bayes.html)
-            + 集成学习
-                + 基于上述方法的集成学习（AdaBoost）
-                + 随机森林
-3. 【性能评估】
-    1. 评估流程
-        1. 在每个文本表示模型 $m$ 的语境下训练每一个分类器 $c$ 时，就记下分类器 $c$ 被训练到不低于基准要求的水平时所耗费的时间 $t_{train}$
-        2. 对于上述每种文本表示模型：对同一种文本表示模型，对测试集文本数据进行分类，并得到 $F_1$ 与实际分类时间 $t_{test}$，比较所有方法的效果
-        3. 从每个表示模型对应的所有分类器中选出效果最好的一个分类器 $c(i)$，比较这些分类器的性能
-    2. 评估指标：见上述「5. 评估指标」
-
+ch7
