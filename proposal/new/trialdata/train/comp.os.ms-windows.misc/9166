@@ -1,1 +1,37 @@
- subject re winbench three one one help graphics comparison from franklig helium gas uug arizona edu gregory c franklin organization university of arizona tucson lines three two in article srg three sir grv grace cri nz writes in article swyatt bach udel edu stephen l wyatt writes i have a question about winbench pc labs thing three one one i have a three eight six three three and a ahead b five one two k card and got these results windows vga driver two four four million ahead b six four zero four eight zero two five six driver four five five zero zero zero winmarks windows svga eight zero zero six zero zero one six driver one six eight million winmarks i was thinking about upgrading to a diamond two four x card i read it had about eight million winmark on my three eight six dx three three mhz four mb ram winbench two five two four x v two zero two one six seven m one six six eight two seven four v two zero three one six seven m one six six eight nine eight five v two zero three one six four six zero two four two eight v two zero three two five six seven six three five two seven eight be very careful with these results as i recall numbers from winbench two five are calculated differently from three one and so these figures are not comparable however to answer stephen s question replacing the ahead b card with a diamond two four x will yield a cost effective dramatic speed increase for windows that or the ati graphics ultra plus greg franklin franklig gas uug arizona edu
+Subject: Re: WINBENCH 3.11 help -- graphics comparison?!?
+From: franklig@helium.gas.uug.arizona.edu (Gregory C Franklin )
+Organization: University of Arizona, Tucson
+Lines: 32
+
+In article <1pqd9hINNbmi@zephyr.grace.cri.nz> srg3sir@grv.grace.cri.nz writes:
+>
+>
+>In article <C4zoGD.C56@news.udel.edu> swyatt@bach.udel.edu (Stephen L Wyatt) writes:
+>>I have a question about WINBENCH (pc labs thing) 3.11..
+>>
+>>I have a 386/33 and a Ahead B (512k) card and got these results-
+>>
+>>windows vga driver - 2.44 million
+>>ahead B (640-480-256) driver - 455,000 winmarks
+>>windows svga (800-600-16) driver - 1.68 million winmarks...
+>>
+>>I was thinking about upgrading to a diamond 24x card.. I read it had about
+>>8 million winmark..
+>
+>On my 386dx 33Mhz 4Mb RAM
+>Winbench 2.5
+> 24x v2.02 16.7M        1,668,274
+>     v2.03 16.7M        1,668,985
+>     v2.03 16           4,602,428
+>     v2.03 256          7,635,278
+
+Be very careful with these results!  As I recall, numbers from Winbench
+2.5 are calculated differently from 3.1, and so these figures are not
+comparable.
+
+However, to answer Stephen's question, replacing the Ahead B card with
+a Diamond 24x will yield a cost-effective, dramatic speed increase for
+Windows.  That or the ATI Graphics Ultra Plus....
+--
+Greg Franklin
+franklig@gas.uug.arizona.edu

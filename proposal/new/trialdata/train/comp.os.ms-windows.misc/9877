@@ -1,1 +1,21 @@
- from mlin pdx two two two nosubdomain nodomain ming t lin subject word byte reply to mlin ichips intel com organization workgroup computing division pdx intel lines one five i just moved from borland c three zero to visual c today when i tried to compile my c program it complained a function prototype problem it turned out that the typedef word in ms c is a byte not unsigned int could anyone shine some light on this subject why a word is a byte ming t lin mlin ichips intel com five zero three six nine six four eight zero six
+From: mlin@pdx222.NoSubdomain.NoDomain (Ming T. Lin)
+Subject: WORD = BYTE ??
+Reply-To: mlin@ichips.intel.com
+Organization: Workgroup Computing Division, PDX, Intel
+Lines: 15
+
+
+    I just moved from Borland C++ 3.0 to Visual C++ today. When I tried
+to compile my C++ program, it complained a function prototype problem.
+It turned out that the typedef WORD in MS C++ is a BYTE, not unsigned int.
+
+    Could anyone shine some light on this subject ? Why a WORD is a BYTE ?
+
+
+-Ming T. Lin
+
+
+---------------------------------------------------------------------------
+mlin@ichips.intel.com
+(503) 696-4806
+

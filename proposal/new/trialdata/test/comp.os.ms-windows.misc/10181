@@ -1,1 +1,26 @@
- from u seven nine one one zero nine three cc nctu edu tw erik wang subject how can i make mpeg sound organization national chiao tung university x newsreader tin version one one pl six lines two zero hello i install one wav driver pc speaker then install mpeg two zero phoenix oulu fi pub incoming mpeg two zero mpegexe zip in windows three one but when i load one mpeg file and make sound type to wav or mpeg it always say error when i load one mpeg file which have wav file wav then select sound type to wav it is normal and no error but i still can t hear sound what should i do fix the sounddrv number in mfw ini thankx for any help internet address u seven nine one one zero nine three cc nctu edu tw english name erik wang chinese name wang jyh shyang national chiao tung university taiwan r o c
+From: u7911093@cc.nctu.edu.tw (Erik Wang)
+Subject: HOW Can I make MPEG Sound?
+Organization: National Chiao Tung University
+X-Newsreader: TIN [version 1.1 PL6]
+Lines: 20
+
+Hello,
+        I install one wav driver: pc-speaker, then install mpeg 2.0
+            phoenix.oulu.fi:/pub/incoming/mpeg2_0/mpegexe.zip --/
+
+in Windows 3.1. but when I load one MPEG file and make sound type to
+WAV or MPEG,it always say error.
+        when I load one mpeg file which have wav file( ~.wav),then
+select sound type to WAV,it is normal and no error,but I still can't
+hear sound. What should I do? fix the SoundDrv number in MFW.INI?
+
+        Thankx for any help...
+
+
+--
+ Internet Address: u7911093@cc.nctu.edu.tw
+
+    English Name: Erik Wang
+    Chinese Name: Wang Jyh-Shyang
+
+ National Chiao-Tung University,Taiwan,R.O.C.

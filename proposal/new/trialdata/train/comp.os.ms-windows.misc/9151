@@ -1,1 +1,67 @@
- from rcampbel weejordy physics mun ca roderick campbell subject re pc geos windows os two and unix x one one reply to rcampbel weejordy physics mun ca organization dept of physics memorial university lines six one in article sehari iastate edu babak sehari writes with my limited knowladge about the pc geos i came out with following comparison pc geos windows os two unix x one one one can run dos programs yes yes yes yes needed add lines deleted seven price one two zero seven zero one two zero free one zero zero zero s a good one costs four zero zero seven zero zero avaliable on ext card too eight c compiler don t think so yap yap yap nine c no yap yap yap one zero fortran no yap yap yap one one debuger yap yap yap one two min to run dos two m one zero mb hard three eight six you guys and gals add to this list so we do not throw our many down the tubes with highest regards babak sehari this list appears to imply that ms windows that has a cost listed above at seven zero comes with a c compiler c and fortran it does not of course these are expensive add ons that drive the price way beyond seven zero i don t know if the same applies to os two as far as unix is concerned there is a free unix linux that has cc c fortran f two c xwindows and many other features besides with a large number of utilities that can be optionally added and there is also a free three eight six bsd i believe both these unix s are quite robust you can check out comp os linux if you don t want to throw our many down the tubes you ve got to break that list down a little more roderick campbell department of physics memorial university of newfoundland st john s nf canada internet rcampbel weejordy physics mun ca
+From: rcampbel@weejordy.physics.mun.ca (Roderick Campbell)
+Subject: Re: PC/Geos, Windows, OS/2, and Unix/X11
+Reply-To: rcampbel@weejordy.physics.mun.ca
+Organization: Dept. of Physics, Memorial University
+Lines: 61
+
+In article <sehari.734022369@vincent2.iastate.edu>, sehari@iastate.edu (Babak Sehari) writes:
+|> ---
+|> 
+|> 
+|> 
+|> With my limited knowladge about the PC Geos, I came out with following 
+|> comparison:
+|> 
+|>                  PC Geos      Windows       OS/2    Unix/X11
+|>                 ________      _______       ____    _______
+|> 
+|> 1. Can run dos
+|>    programs        yes           yes         yes     yes(needed add.)
+|> 
+
+[lines deleted]
+
+|> 
+|> 7. price          $120          $70         $120     free-$1000s
+|>                                                      A good one
+|>                                                      costs $400-$700 
+|>                                                      avaliable on Ext.
+|>                                                      card too.
+|> 
+|> 8. C compiler Don't think so    yap          yap     yap
+|> 
+|> 9. C++           no             Yap          Yap     Yap
+|> 
+|> 10. Fortran      no             yap          yap     yap
+|> 
+|> 11. debuger      ?              yap           yap    yap
+|> 
+|> 12. min to run   dos        2M & 10Mb-Hard     ?     386
+|> 
+|> You guys and gals add to this list, so we do not throw our many down the 
+|> tubes.
+|> 
+|>                       With highest regards,
+|>                            Babak   Sehari.
+|> 
+
+This list appears to imply, that MS-windows that has a cost listed
+above at $70, comes with a C compiler, C++ and Fortran. It does not, of
+course. These are expensive add-ons that drive the price WAY beyond $70.
+( I don't know if the same applies to OS/2 )
+
+As far as unix is concerned;
+There is a free unix, linux, that has cc, ~c++, fortran ( f2c ),
+Xwindows and many other features besides, with a large number of utilities
+that can be optionally added. And there is also a free 386BSD I believe.
+Both these unix's are quite robust. You can check out comp.os.linux
+
+If you don't want to "throw our many down the tubes", you've got to break
+that list down a little more.
+
+-- 
+Roderick Campbell
+Department of Physics
+Memorial University of Newfoundland
+St. John's, NF, CANADA
+internet: rcampbel@weejordy.physics.mun.ca

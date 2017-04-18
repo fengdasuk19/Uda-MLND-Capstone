@@ -1,1 +1,30 @@
- from dbasson mattek csir co za dominique basson subject re boot up sometimes fails organization csir lines two one nntp posting host one four six six four one three four one nine five x disclaimer none of the opions expressed herein are the official x disclaimer opinions of the csir or any of its subsidiaries x disclaimer so don t freak out at us about anything in article cs four one six five three zero lux latrobe edu au matthew i gillard writes subject boot up sometimes fails from cs four one six five three zero lux latrobe edu au matthew i gillard date wed two eight apr one nine nine three zero five three seven zero zero gmt sometimes when i boot up windows three one after the windows logo comes up it han gs i am using dos six and doublespace and a five meg temp swap file on an uncompressed drive but when i press the reset button on the computer windows boots up fine why is this is it dos six matthew gillard blessed are they who run around computer systems engineering in circles for they shall be la trobe university known as wheels dos five never used the area e zero zero zero efff as well as some others if you have any cards that use this are such as a lan card you might get this problem use the x e zero zero zero efff in your emm three eight six exe line in config sys if you run memmaker then instruct it retain inclusions and exclusions
+From: dbasson@mattek.csir.co.za (Dominique Basson  )
+Subject: Re: Boot-up sometimes fails.
+Organization: CSIR
+Lines: 21
+NNTP-Posting-Host: 146.64.134.195
+X-Disclaimer: None of the opions expressed herein are the official
+X-Disclaimer: opinions of the CSIR or any of its subsidiaries.
+X-Disclaimer: **  So don't freak out at _us_ about anything  **
+
+In article <1993Apr28.053700.12929@lugb.latrobe.edu.au> cs416530@lux.latrobe.edu.au (Matthew I Gillard) writes:
+>Subject: Boot-up sometimes fails.
+>From: cs416530@lux.latrobe.edu.au (Matthew I Gillard)
+>Date: Wed, 28 Apr 1993 05:37:00 GMT
+>Sometimes when I boot up windows 3.1, after the windows logo comes up it han
+>gs, I am using Dos 6 and doublespace, and a 5 meg temp swap file on an
+>uncompressed drive.
+>But when I press the reset button on the computer,  windows boots up
+>fine... Why is this??? is it dos 6?
+>-- 
+>-----------------------------------------------------------------------------
+>Matthew Gillard,                    | Blessed are they who run around
+>Computer Systems Engineering,       | in circles, for they shall be 
+>La Trobe University,                | known as wheels.
+
+Dos 5 never used the area $E000 - $EFFF, as well as some others. If you have 
+any cards that use this are (such as a LAN card), you might get this 
+problem.
+
+Use the X=$E000-$EFFF in your EMM386.EXE line in config.sys. If you run 
+MemMaker then instruct it retain inclusions and exclusions.

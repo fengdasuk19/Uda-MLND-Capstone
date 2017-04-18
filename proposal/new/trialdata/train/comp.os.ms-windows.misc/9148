@@ -1,1 +1,42 @@
- from tedm tsoft net ted matsumura subject re windows gripe organization tsoft bbs and public access unix one four one five nine six nine eight two three eight lines three seven in article bigal wpi wpi edu nathan charles crowell writes hi there there s one thing about windows that really frosts me i have two zero mb of ram installed in my system i use a five mb two five mb under windows disk cache and a four mb permanent swap file while i can never fill the memory up i still have problems sometimes because i run out of gdi resources what gives i think windows could manage these resources a little better does anyone have any input on how to conserve these resources so that i can avoid this problem nate nathan c crowell dept of mechanical engineering acrl worcester polytechnic institute e mail bigal wpi wpi edu costing the net hundreds if not thousands of dollars nathan win three one has a fixed limit of six four k gdi memory regardless of physical ram installed this is twice that of win three zero but not nearly robust enough for many developers and power users using amish launch as your shell you can reduce gdi memory usage by as much as one five over progman ndw two dashboard and other graphical type icon based and other shells also nesting and full hot key global support is offered something no other shells have at this time ted matsumura president amish software inc wq
+From: tedm@tsoft.net (Ted Matsumura)
+Subject: Re: Windows gripe...
+Organization: TSoft BBS and Public Access Unix, +1 415 969 8238
+Lines: 37
+
+In article <1ppmvf$qnh@bigboote.WPI.EDU> bigal@wpi.WPI.EDU (Nathan Charles Crowell) writes:
+>
+>Hi there,
+>
+>     There's one thing about Windows that really frosts me.
+>I have 20MB of RAM installed in my system. I use a 5MB (2.5MB
+>under Windows) disk-cache, and a 4MB permanent swap file.
+>
+>     While I can never fill the memory up, I still have problems
+>sometimes because I run out of GDI resources. What gives?
+>I think Windows could manage these resources a little better.
+>
+>     Does anyone have any input on how to conserve these resources
+>so that I can avoid this problem?
+>
+>Nate
+>--------------------------
+>Nathan C. Crowell, Dept. of Mechanical Engineering/ACRL
+>
+>Worcester Polytechnic Institute     E-mail: bigal@wpi.wpi.edu
+>
+>"Costing the net hundreds if not thousands of dollars"
+
+Nathan,
+  Win31 has a fixed limit of 64K GDI memory, regardless of physical RAM
+installed, this is twice that of Win30, but not nearly robust enough for
+many developers and power users.
+ 
+Using Amish Launch as your shell, you can reduce GDI memory usage by as
+much as 15% over Progman, NDW 2, DAshboard, and other graphical type icon
+based and other shells.  Also, nesting, and full hot-key global support
+is offered, something no other shells have at this time.
+ 
+Ted Matsumura, President
+Amish Software, Inc.
+
+:wq

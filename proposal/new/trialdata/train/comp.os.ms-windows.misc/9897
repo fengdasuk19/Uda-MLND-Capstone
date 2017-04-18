@@ -1,1 +1,42 @@
- subject re more cool bmp files from aengus lawlor distribution usa organization rohm and haas company lines three six in article paladin world std com thomas g schlatter says in article louray seas gwu edu michael panayiotakis writes begin cut here begin six six six ntreal bmp m zero dtv five p m p a f cd five six d d m four pa n l zero four wa j zero b h nine tj three kkzp zero m td four i zgb zero uh zero a six e i four b i bbzx e one bv deleted a lot of stuff how do you convert this to a bit map you re supposed to delete everything above the cut here mark and below the lower cut here mark and uudecode it but i was not able to unexpected end of file encountered at the last line could you please re post it or tell be what i m doing wrong sounds like the original poster of the bitmap uuencoded the file on a dos machine and you tried to uudecode it on a un x machine and your uudecode program balked at the carraige returns well my newsreader shows the uue file as having lots of spaces which means it s broken before i even try to download it did anyone get it to uudecode successfully aengus rbyaml rohmhaas com aengus lawlor rbyaml rohvm one bitnet who used to be alawlor dit ie how about some of that famous dublin wit barman certainly sir would that be dry or sparkling
+Subject: Re: More Cool BMP files??
+From: Aengus Lawlor <RBYAML@rohvm1.rohmhaas.com>
+Distribution: usa
+Organization: Rohm and Haas Company
+Lines: 36
+
+In article <C61yHr.n1I@world.std.com>, paladin@world.std.com (Thomas G
+Schlatter) says:
+>
+>In article <1993Apr24.062055.7123@seas.gwu.edu> louray@seas.gwu.edu (Michael
+>Panayiotakis) writes:
+>>>
+>>>
+>>>>BEGIN ----------------------- CUT HERE ---------------
+>>>>begin 666 ntreal.bmp
+>>>>M0DTV5P<      #8$   H    ( ,  %@"   !  @
+>>>>M            $    ! @@P![( @ "!A> #!_F   #CD ,56# #D.  !=>_D
+>>>>M4PA: &4H@P"L,1  $U); &N+L0 ($!@ +4WA !,J.0 B/%H 9TJ3 $KKZP 0
+>>>>M,;, TD4I /ZGB0!)#UH (0A.  "6E@ I !@ 4B!I " !  !BBZX #!E1 )BV
+>>>
+>>>Deleted a lot of stuff!!!!!!!
+>>>How do you convert this to a bit map???
+>>
+>>You're supposed to delete everything above the "cut here" mark, and
+>>below the lower cut here mark, and uudecode it.  but
+>>*I was not able to: unexpected end of file encountered at the last line.
+>>
+>>could you please re-post it, or tell be what I'm doing wrong?
+>
+>Sounds like the original poster of the bitmap uuencoded the file
+>on a DOS machine, and you tried to uudecode it on a Un*x machine, and your
+>uudecode program balked at the carraige-returns.
+Well, my newsreader shows the UUE file as having lots of spaces, which
+means it's broken before I even try to download it. Did anyone get it
+to uudecode successfully?
+
+Aengus
+--
+RBYAML@ROHMHAAS.COM                    Aengus Lawlor
+RBYAML@ROHVM1.BITNET                   (who used to be ALAWLOR@DIT.IE)
+"How about some of that famous Dublin wit, Barman?"
+"Certainly, sir. Would that be Dry or Sparkling?"

@@ -1,1 +1,23 @@
- from six four six three seven nine acadvm one uottawa ca william f maton subject changing system font x received by usenet pa dec com id aa two zero three three five wed two eight apr nine three one one zero nine five four zero seven zero zero x received by inet gw one pa dec com id aa one six seven three five wed two eight apr nine three one one zero nine five one zero seven zero zero x received from acadvm one uottawa ca by acadvm one uottawa ca ibm vm smtp v two r two with bsmtp id five zero eight eight wed two eight apr nine three one four zero nine two zero edt x received from uottawa six four six three seven nine by acadvm one uottawa ca mailer r two zero seven with bsmtp id eight zero seven nine wed two eight apr nine three one four zero nine one nine edt x to all lines one two hello i have windows three one and i was wondering what is necessary to change the default system font to something else i have just obtained msc c seven zero with sdk so i d really like to get my feet wet with doing my first windows pro gram to change the system font tx william f maton six four six three seven nine acadvm one uottawa ca the mercedes benz convertible u six four six three seven nine csi uottawa ca the unicycle
+From: 646379@acadvm1.uottawa.ca ("William F. Maton")
+Subject:      Changing system font
+X-Received: by usenet.pa.dec.com; id AA20335; Wed, 28 Apr 93 11:09:54 -0700
+X-Received: by inet-gw-1.pa.dec.com; id AA16735; Wed, 28 Apr 93 11:09:51 -0700
+X-Received: from ACADVM1.UOTTAWA.CA by acadvm1.uottawa.ca (IBM VM SMTP V2R2)
+   with BSMTP id 5088; Wed, 28 Apr 93 14:09:20 EDT
+X-Received: from UOTTAWA (646379) by ACADVM1.UOTTAWA.CA (Mailer R2.07) with BSMTP
+ id 8079; Wed, 28 Apr 93 14:09:19 EDT
+X-To: All <comp.os.ms-windows.misc.usenet>
+Lines: 12
+
+Hello.
+      I have Windows 3.1 and I was wondering what is necessary to change the
+default system font to something else.  I have just obtained MSC/C++ 7.0 with
+SDK, so I'd really like to get my feet wet with doing my first windows pro-
+gram to change the system font.
+
+Tx.,
+
+William F. Maton
+
+646379@acadvm1.uottawa.ca        (The Mercedes-Benz Convertible)
+u646379@csi.uottawa.ca           (The Unicycle)

@@ -1,1 +1,29 @@
- from slc a two cim cdc com steve chesney x four six six two subject re diamond ss two four x reply to slc cdc com organization metaphase technology inc lines two three in article zimm condor navsses navy mil writes greetings i ve had a bunch of problems with the two four x opening a dos window on the desktop can occasionally result in the windows blowing up into a set of horizontal lines hashing the entire desktop nothing can recover this except to completely exit from windows the other irritating problem is that windows that scroll often overwrite lines rather than actually i posted a similar query and got these replies which i am testing so far so good turn hardware scrolling off before going into windows two four xmode scrolloff in the pif file for dos window set emulate text mode get the latest drivers from the diamond bbs or cica dates are one two zero nine steve chesney slc catherine cim cdc com metaphase technology inc six one two four eight two four six six two voice four two three three north lexington avenue six one two four eight two four zero zero one fax arden hills mn five five one two six
+From: slc@a2.cim.cdc.com (Steve Chesney x4662)
+Subject: Re: Diamond SS 24X
+Reply-To: slc@.cdc.com
+Organization: Metaphase Technology, Inc.
+Lines: 23
+
+In article <1993Apr22.085129.554@condor.navsses.navy.mil>, zimm@condor.navsses.navy.mil writes:
+>Greetings!
+>   
+>I've had a bunch of problems with the 24x.  Opening a DOS window on the
+>desktop can occasionally result in the windows "blowing up" into a set of
+>horizontal lines, hashing the entire desktop.  Nothing can recover this 
+>except to completely exit from Windows.  The other irritating problem is
+>that windows that scroll often overwrite lines rather than actually
+
+I posted a similar query and got these replies which I am testing (so far so
+good)..
+
+* turn hardware scrolling off before going into windows (24xmode scrolloff)
+
+* in the pif file for dos window, set "emulate text mode"
+
+* get the latest drivers from the DiamoND BBS (or cica): dates are 1-20-9.
+
+-- 
+Steve Chesney                                    slc@catherine.cim.cdc.com     
+Metaphase Technology Inc.                        612-482-4662 (voice)
+4233 North Lexington Avenue                      612-482-4001 (fax)
+Arden Hills, MN  55126

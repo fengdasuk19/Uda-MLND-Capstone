@@ -1,1 +1,35 @@
- nntp posting host one three four five eight nine six one four from wimvh liris tew kuleuven ac be wim van holder distribution world organization k u leuven applied economic sciences department subject re winqvtnet with ndis on token ring lines two eight in article thomas datamark co nz writes in article wimvh liris tew kuleuven ac be wim van holder writes is it possible to use winqvt net on a machine that uses ndis to connect to a token ring i tried it with older versions class error or something the like how are you attempting to do that are you using the dis pkt nine program this provides a packet driver on top of the ndis driver i tried to do so but people told me that even if i used dispkt the packets would still be incompatible is this true thomas beagle thomas datamark co nz work six four four two three three eight one eight six o technical writer thomas cavebbs welly gen nz home six four four four nine nine three eight three two wellington nz hound for hire will work for dog biscuits wim van holder katholieke universiteit leuven tel three two zero one six two eight five seven one six departement t e w fax three two zero one six two eight five seven nine nine dekenstraat two b three zero zero zero leuven e mail wimvh liris tew kuleuven ac be belgium fdbaq zero three cc one kuleuven ac be
+Nntp-Posting-Host: 134.58.96.14
+From: wimvh@liris.tew.kuleuven.ac.be (Wim Van Holder)
+Distribution: world
+Organization: K.U.Leuven - Applied Economic Sciences Department
+Subject: Re: WINQVTNET with NDIS on Token Ring ?
+Lines: 28
+
+In article <1993APR21.210954.40516@DATAMARK.CO.NZ>, thomas@datamark.co.nz writes:
+|> In article <1993Apr21.082152@liris.tew.kuleuven.ac.be> wimvh@liris.tew.kuleuven.ac.be (Wim Van Holder) writes:
+|> >Is it possible to use WinQVT/Net on a machine that uses NDIS to connect to a
+|> >Token Ring ? I tried it with older versions (< 3.2) but got an invalid packet
+|> >class error or something the like...
+|>
+|> How are you attempting to do that?
+|>
+|> Are you using the DIS_PKT9 program? This provides a packet driver on
+|> top of the NDIS driver.
+|>
+
+I tried to do so, but people told me that even if I used DISPKT, the packets
+would still be incompatible. Is this true ?
+
+
+|> --
+|>    Thomas Beagle | thomas@datamark.co.nz        Work: 64 4 233 8186    __o
+|> Technical Writer | thomas@cavebbs.welly.gen.nz  Home: 64 4 499 3832  _-\<,
+|>   Wellington, NZ |    Hound for hire. Will work for dog biscuits.   (_)/(_)
+
+Wim Van Holder
+Katholieke Universiteit Leuven          Tel: ++32 (0)16/28.57.16
+Departement T.E.W.                      FAX: ++32 (0)16/28.57.99
+Dekenstraat 2
+B-3000 Leuven                           E-mail: wimvh@liris.tew.kuleuven.ac.be
+BELGIUM                                         fdbaq03@cc1.kuleuven.ac.be
+

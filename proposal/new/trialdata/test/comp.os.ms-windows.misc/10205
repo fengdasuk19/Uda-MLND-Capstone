@@ -1,1 +1,27 @@
- from christian wenk ac three maus de christian wenk subject re emm three eight six and windows organization mausnet mitglied im in e v lines two one x gateway mausgate news one one five ac three hallo ebosco us oracle com wrote on two eight zero four nine three about emm three eight six and windows e von ebosco us oracle com mi two eight zero four nine three one eight zero three e name eric bosco e should i use emm three eight six or should i remove it from my config sys basically windows prefers extendend memory instead of expanded more work to do for win and if no application desperatly needs ems you should leave emm three eight six with a rem in your config sys bye chris
+From: Christian_Wenk@ac3.maus.de (Christian Wenk)
+Subject: Re: emm386 and windows
+Organization: MausNet (Mitglied im IN e.V.)
+Lines: 21
+X-Gateway: MausGate/News 1.15/ac3
+
+Hallo !
+
+ebosco@us.oracle.com wrote on 28.04.93
+about : emm386 and windows
+
+
+e>Von : ebosco@us.oracle.com (Mi, 28.04.93 18:03)
+e>Name: Eric Bosco
+
+[...]
+e>Should I use emm386 or should I remove it from my config.sys?
+
+Basically:
+Windows prefers extendend memory instead of expanded (more work to do for Win)
+and if no application desperatly needs EMS, you should leave emm386
+with a "REM" in your config.sys.
+
+Bye,
+    Chris
+
+------------------------------------------------------------------------------

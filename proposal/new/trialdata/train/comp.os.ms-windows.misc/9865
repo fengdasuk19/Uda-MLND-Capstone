@@ -1,1 +1,62 @@
- from gel cs mcgill ca gilles khouzam subject re workgroup questions conven ram and licensing summary good choice keywords w four wg organization socs mcgill university montreal canada lines five five in article aew eosvcr wimsey bc ca writes i would be very appreciative if someone would answer a few questions about windows for workgroups i currently have novell netware lite which does not work with windows very well and is a conventional memory hog ver one one i am considering moving all our machines to w four wg q one how much conventional ram does w four wg use over and above the driver for the network card i have just checked it and you have three files that are loaded protman one two eight bytes driver nine zero seven two bytes workgrp four four one six bytes q two if i have a novell ne two zero zero zero card are the lsl and ipx drivers still needed no w four wg uses it s own drivers q three does w four wg do a license check over the network to ensure each machine is running its own licenced copy of w four wg note i do not want to break the license agreement and i will buy a copy of w four wg for each of our machines it is just that i would like to try it out first to see if it meets our needs returning one opened copy is much easier than returning n opened copies not that i know of i bought two copies had some problems with one installed both from the same copie no problems do worry i just had a really old bios and that s the only problem i got q four if you buy the upgrade to windows three one for w four wg does it replace all of win three one as you install it or does it depend on current win three one files it will replace all older files i think and prompt you for the others q five if i install windows nt on my server when it comes out will i have any troubles with the w four wg machines this i do not know when i started this message i was going to ask only two questions but i got carried away i ll stop now i look forward to your replies al hope this helps gel
+From: gel@cs.mcgill.ca (Gilles KHOUZAM)
+Subject: Re: Workgroup Questions (conven. ram and licensing)
+Summary: Good Choice
+Keywords: W4WG
+Organization: SOCS - Mcgill University, Montreal, Canada
+Lines: 55
+
+In article <Ny+0rA6ABh107h@eosvcr.wimsey.bc.ca> aew@eosvcr.wimsey.bc.ca writes:
+>I would be very appreciative if someone would answer a few 
+>questions about Windows for Workgroups.
+>
+>I currently have Novell Netware Lite which does not work with
+>Windows very well and is a conventional memory hog (ver. 1.1).
+>I am considering moving all our machines to W4WG.
+>
+>Q1:  How much conventional ram does W4WG use over and above the
+>     driver for the network card?
+
+	I have just checked it and you have three files that are loaded:
+	PROTMAN :  128 Bytes
+	DRIVER	: 9072 Bytes
+	WORKGRP	: 4416 Bytes
+>
+>Q2:  If I have a Novell NE2000 card, are the LSL and IPX drivers
+>     still needed?
+
+	No W4WG uses it's own drivers.
+>
+>Q3:  Does W4WG do a license check over the network to ensure each
+>     machine is running its own licenced copy of W4WG? (Note: I do
+>     not want to break the license agreement and I will buy a copy
+>     of W4WG for each of our machines, it is just that I would like
+>     to try it out first to see if it meets our needs. Returning one
+>     opened copy is much easier than returning N opened copies.)
+
+	Not that I know of, I bought two copies, had some problems with one
+	installed both from the same copie, no problems. Do worry I just had
+	a really old BIOS and that's the only problem I got.
+>
+>Q4:  If you buy the upgrade to Windows 3.1 for W4WG does it replace
+>     all of Win 3.1 as you install it or does it depend on current
+>     Win 3.1 files?
+	It will replace all older files (I think) and prompt you for the
+	others.
+>
+>Q5:  If I install Windows NT on my server when it comes out, will I have
+>     any troubles with the W4WG machines?
+
+	This I do not know...
+>
+>When I started this message, I was going to ask only 2 questions but I got carried
+>away. I'll stop now ;-).
+>
+>I look forward to your replies.
+>
+>Al
+
+
+					Hope this helps
+
+					GEL
+

@@ -1,1 +1,36 @@
- from ntaib silver ucs indiana edu iskandar taib subject re windows three one general questions nntp posting host silver ucs indiana edu organization indiana university lines three zero in article crgruen sony one sdrc com robert gruen writes one i received amish utilities for windows when i purchased turbo c for windows what is amish utilities what can it do for me all i received was the disk no docs maybe it milks the dogcow nine two i am running windows in one zero two four x seven six eight x two five six mode using a driver that was supplied with my svga card the card is a boca svga card with one meg ram and i think it has an et four zero zero zero chip in it at least thats what some program tells me the driver is an old driver that was written for windows three one it seems to work fine but would i gain any benefits by switching to a newer driver if so which one should i use and where could i find it lots of drivers are available off ftp cica indiana edu in pub pc win three drivers video i ve tried two et four cview zip and et four turbo zip these give you a choice of turbo and non turbo drivers the turbo drivers were fast but caused mouse problems with my machine which has a diamond speedstar card i finally got turbo drivers wndspeed by binar from diamond amazing blazingly fast for a non accelerated card and best of all no gpf s for a month or so iskandar taib the only thing worse than peach ala internet ntaib silver ucs indiana edu frog is frog ala peach bitnet ntaib iubacs
+From: ntaib@silver.ucs.indiana.edu (Iskandar Taib)
+Subject: Re: Windows 3.1 General Questions
+Nntp-Posting-Host: silver.ucs.indiana.edu
+Organization: Indiana University
+Lines: 30
+
+In article <1495@heimdall.sdrc.com> crgruen@sony1.sdrc.com (robert gruen) writes:
+>1.  I received Amish Utilities for Windows when I purchased Turbo C++ for 
+>    Windows.  What is Amish Utilities?  What can it do for me?  All I
+>    received was the disk, no docs.  
+
+Maybe it milks the dogcow? 9-)
+
+
+>2.  I am running Windows in 1024x768x256 mode using a driver that was supplied 
+>    with my SVGA card.  The card is a BOCA SVGA card with 1Meg RAM, and I think 
+>    it has an ET4000 chip in it (at least thats what some program tells me). 
+>    The driver is an old driver that was written for Windows 3.1, it seems to 
+>    work fine, but would I gain any benefits by switching to a newer driver?  If
+>    so which one should I use and where could I find it? 
+
+Lots of drivers are available off ftp.cica.indiana.edu in pub/pc/win3/
+drivers/video. I've tried two: et4cview.zip and et4turbo.zip. These
+give you a choice of turbo and non-turbo drivers. The turbo drivers
+were FAST but caused mouse problems with my machine (which has a
+Diamond Speedstar card). I finally got turbo drivers (wndSpeed by
+Binar) from Diamond. Amazing. Blazingly fast (for a non-accelerated
+card) and best of all - no GPF's for a month or so...
+
+
+
+-- 
+-------------------------------------------------------------------------------
+Iskandar Taib                          | The only thing worse than Peach ala
+Internet: NTAIB@SILVER.UCS.INDIANA.EDU |    Frog is Frog ala Peach
+Bitnet:   NTAIB@IUBACS                 !

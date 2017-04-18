@@ -1,1 +1,17 @@
- from lei rtsg mot com peter p lei subject dos six vfintd three eight six and windows sys ini nntp posting host accord four organization motorola inc cellular infrastructure group lines one one does anyone know what the vfintd three eight six device is used for in windows three one it s under the three eight six enh section as device c dos vfintd three eight six after upgrading to dos six on several machines different types some include it some don t any ideas pl
+From: lei@rtsg.mot.com (Peter P. Lei)
+Subject: DOS 6 vfintd.386 and Windows sys.ini
+Nntp-Posting-Host: accord4
+Organization: Motorola Inc., Cellular Infrastructure Group
+Lines: 11
+
+
+Does anyone know what the vfintd.386 device is used for in windows 3.1?
+It's under the [386enh] section as
+	device=c:\dos\vfintd.386
+
+After upgrading to dos 6 on several machines (different types), some include
+it, some don't.
+
+Any ideas?
+
+pl
