@@ -1,18 +1,1 @@
-From: srowe@fulcrum.co.uk (Simon Rowe)
-Subject: Re: exit codes (dos--sorry for wrong group : (
-Organization: Fulcrum Communications
-Lines: 13
-
-Internal DOS commands (certainly 3.3 and before) do not set the exit
-code. This is a royal pain if you want to do anything which checks for
-successful deletions etc. The best suggestion is to use 4dos which
-does return you exit codes. It also has move command,
-
-	Simon.
-
--------------------------------------------------------------------------------
-Simon Rowe,                                   srowe@fulcrum.co.uk
-Fulcrum Communications Ltd,
-Birmingham,			         Condition "BRAIN_OVERLOAD$" raised at
-ENGLAND.				 5412(0)/12234
-------------------------------------------------------------------------------
+ from srowe fulcrum co uk simon rowe subject re exit codes dos sorry for wrong group organization fulcrum communications lines one three internal dos commands certainly three three and before do not set the exit code this is a royal pain if you want to do anything which checks for successful deletions etc the best suggestion is to use four dos which does return you exit codes it also has move command simon simon rowe srowe fulcrum co uk fulcrum communications ltd birmingham condition brain overload raised at england five four one two zero one two two three four

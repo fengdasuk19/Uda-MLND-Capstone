@@ -1,15 +1,1 @@
-From: ikellyp@info (Paul Kelly)
-Subject: Re: What does the .bmp format mean?
-Organization: Curtin University of Technology
-X-Newsreader: TIN [version 1.1 PL9]
-Lines: 9
-
-Andrew L. Roberts (robertsa@unix2.tcd.ie) wrote:
-: What exactly does the windows bitmap format look like? I mean, how is
-: the data stored: width, height, no. of colours, bitmap data? I couldn't
-: find anything in ths user manual, is there any other reference material
-: which would give me this information?
-
-: Thanks,
-: Andrew
-Try the windows multimedia development kit, it has most of the file formats defined
+ from ikellyp info paul kelly subject re what does the bmp format mean organization curtin university of technology x newsreader tin version one one pl nine lines nine andrew l roberts robertsa unix two tcd ie wrote what exactly does the windows bitmap format look like i mean how is the data stored width height no of colours bitmap data i couldn t find anything in ths user manual is there any other reference material which would give me this information thanks andrew try the windows multimedia development kit it has most of the file formats defined

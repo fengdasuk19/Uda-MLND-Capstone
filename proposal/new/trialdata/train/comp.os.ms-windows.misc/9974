@@ -1,13 +1,1 @@
-From: robertsa@unix2.tcd.ie (Andrew L. Roberts)
-Subject: What does the .bmp format mean?
-Nntp-Posting-Host: unix2.tcd.ie
-Organization: Trinity College, Dublin
-Lines: 7
-
-What exactly does the windows bitmap format look like? I mean, how is
-the data stored: width, height, no. of colours, bitmap data? I couldn't
-find anything in ths user manual, is there any other reference material
-which would give me this information?
-
-Thanks,
-Andrew
+ from robertsa unix two tcd ie andrew l roberts subject what does the bmp format mean nntp posting host unix two tcd ie organization trinity college dublin lines seven what exactly does the windows bitmap format look like i mean how is the data stored width height no of colours bitmap data i couldn t find anything in ths user manual is there any other reference material which would give me this information thanks andrew

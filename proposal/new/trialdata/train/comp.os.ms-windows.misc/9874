@@ -1,13 +1,1 @@
-From: paladin@world.std.com (Thomas G Schlatter)
-Subject: Re: Hhy won't my DOS apps run in a window?!
-Organization: The World Public Access UNIX, Brookline, MA
-Lines: 8
-
-In article <735417915snz@sigma.demon.co.uk> jason@sigma.demon.co.uk writes:
->Can somebody help me out there? I have just purchased Win 3.1 and I just
->can't get DOS apps (text mode apps) to run in a window on their own. I've
->tried mucking around with the PIF settings etc, but to no avail. What am
->I doing wrong? (I didn't get this problem under v3.0).
->
-Are you sure you're running in 386-enhanced mode? (Windows 3.1
-takes more memory...)
+ from paladin world std com thomas g schlatter subject re hhy won t my dos apps run in a window organization the world public access unix brookline ma lines eight in article jason sigma demon co uk writes can somebody help me out there i have just purchased win three one and i just can t get dos apps text mode apps to run in a window on their own i ve tried mucking around with the pif settings etc but to no avail what am i doing wrong i didn t get this problem under v three zero are you sure you re running in three eight six enhanced mode windows three one takes more memory
