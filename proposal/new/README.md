@@ -1,6 +1,6 @@
 ## 20 Newsgroup Document Classification
 
-整理未完成，已经整理的部分[请看这里](./notebooks/ExperimentRecords-version-Full.ipynb)。简要说明如下：
+整理未完成，已经整理的部分[请看这里](./notebooks/Experiment-exploration-ALL.ipynb)。简要说明如下：
 
 1. 旧有的实验结果保存在文件夹 `notebooks` 下
 2. `notebook` 下旧有的实验结果，即以 `trial_` 开头的 `.ipynb` 文件，需要进行进一步修改，原因是：原有的这些 `.ipynb` 文件是放在本层，即与文件夹 `data`、`models`、`modules` 平行，同属一个根目录；现在这些 `.ipynb` 文件与上述这些文件夹的子结点才是平行的，因此读取数据、保存数据的路径应稍作更改
