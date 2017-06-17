@@ -1,0 +1,3 @@
+,alt.atheism,comp.graphics,comp.os.ms-windows.misc,comp.sys.ibm.pc.hardware,comp.sys.mac.hardware,comp.windows.x,misc.forsale,rec.autos,rec.motorcycles,rec.sport.baseball,rec.sport.hockey,sci.crypt,sci.electronics,sci.med,sci.space,soc.religion.christian,talk.politics.guns,talk.politics.mideast,talk.politics.misc,talk.religion.misc
+train,1,3,19,0,0,6,0,0,0,0,2,4,1,0,1,0,2,3,3,0
+test,0,5,1,0,1,3,0,0,0,0,0,0,0,0,1,0,0,1,1,1

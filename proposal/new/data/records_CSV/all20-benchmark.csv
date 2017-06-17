@@ -1,0 +1,4 @@
+,model.source,useStopwords,tool.word,model.word,model.document,classifier,accuracy,macro-F1,micro-F1,time.format.model,time.format.train,time.format.evaluate,time.format.all
+0,corpus,NO,gensim,Word2Vec,ArithmeticMean,SVM,0.791157727031333,0.780516327649354,0.791157727031333,0:06:30,0:00:18.100000,0:00:00.216000,0:06:48.316000
+1,corpus,NO,TensorFlow,Word2Vec,ArithmeticMean,DNN,0.756240042485396,0.746414520777677,0.756240042485396,0:31:16.200000,0:13:32,0:00:05.150000,0:44:53.350000
+2,corpus,NO,TensorFlow,Word2Vec,ArithmeticMean,SVM,0.815454062665958,0.807009121112082,0.815454062665958,0:31:16.200000,0:00:15.500000,0:00:00.139000,0:31:31.839000
