@@ -1,0 +1,4 @@
+,tool.word,useStopwords,classifier,micro-F1,time.format.train,time.format.evaluate,time.format.all
+0,gensim,NO,RandomForest,0.46959638874137016,0:00:00.790000,0:00:00.146000,0:00:00.936000
+1,gensim,NO,SVM,0.8227562400424855,0:00:07.360000,0:00:00.065800,0:00:07.425800
+2,gensim,NO,sk-NN,0.8012480084970791,0:00:52.500000,0:00:00.115000,0:00:52.615000

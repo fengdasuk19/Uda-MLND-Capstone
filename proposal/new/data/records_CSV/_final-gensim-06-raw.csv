@@ -1,0 +1,4 @@
+,tool.word,useStopwords,classifier,micro-F1,time.format.train,time.format.evaluate,time.format.all,time.raw.train,time.raw.evaluate,time.raw.all
+gensim.NO.RandomForest,gensim,NO,RandomForest,0.46959638874137016,0:00:00.790000,0:00:00.146000,0:00:00.936000,"{'h': 0, 'min': 0, 'sec': 0, 'ms': 790.0, 'us': 0}","{'h': 0, 'min': 0, 'sec': 0, 'ms': 146.0, 'us': 0}","{'h': 0, 'min': 0, 'sec': 0, 'ms': 936.0, 'us': 0}"
+gensim.NO.SVM,gensim,NO,SVM,0.8227562400424855,0:00:07.360000,0:00:00.065800,0:00:07.425800,"{'h': 0, 'min': 0, 'sec': 7.36, 'ms': 0, 'us': 0}","{'h': 0, 'min': 0, 'sec': 0, 'ms': 65.8, 'us': 0}","{'h': 0, 'min': 0, 'sec': 7.36, 'ms': 65.8, 'us': 0}"
+gensim.NO.sk-NN,gensim,NO,sk-NN,0.8012480084970791,0:00:52.500000,0:00:00.115000,0:00:52.615000,"{'h': 0, 'min': 0, 'sec': 52.5, 'ms': 0, 'us': 0}","{'h': 0, 'min': 0, 'sec': 0, 'ms': 115.0, 'us': 0}","{'h': 0, 'min': 0, 'sec': 52.5, 'ms': 115.0, 'us': 0}"
