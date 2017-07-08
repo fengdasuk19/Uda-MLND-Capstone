@@ -2,6 +2,11 @@
 
 ## 运行时必要配置说明
 
+### 基本环境
+
++ [OS Version] Manjaro 17.0.2（Linux kernel 4.9.35-1）
++ [Python Version] 3.6.1 
+
 ### 使用的数据集
 
 使用了 *20 Newsgroups* 数据集。请点击[这里](http://qwone.com/~jason/20Newsgroups/20news-bydate.tar.gz)下载。
